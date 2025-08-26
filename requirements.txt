@@ -4,6 +4,9 @@ uvicorn==0.24.0
 pydantic==2.5.0
 pydantic-settings==2.1.0
 
+# Aegis Core Integration
+aegis-core @ git+https://github.com/bawtL-Labs/aegis-core.git
+
 # Data processing and ML
 numpy==1.24.3
 pandas==2.0.3
